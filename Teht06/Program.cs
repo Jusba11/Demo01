@@ -10,7 +10,7 @@ namespace Teht06
     {
         static void Main(string[] args)
         {
-            
+            //NIGGA
             //kulutus 7.02 per 100km
             //bensan hinta 1.595
 
