@@ -24,6 +24,7 @@ namespace teht08
             syote = Console.ReadLine();
             luku3 = int.Parse(syote);
             
+
         }
     }
 }
