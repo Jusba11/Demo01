@@ -10,7 +10,7 @@ namespace teht15
     {
         static void Main(string[] args)
         {
-            int luku, i, j, k, leveys, safeLeveys, kerrokset = 1, valilyonnit ;
+            int luku, i, j, k, leveys, safeLeveys, kerrokset = 1;
 
             Console.Write("Anna luku >");
             string syote = Console.ReadLine(); // luetaan käyttäjän syöte
