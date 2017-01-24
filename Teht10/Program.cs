@@ -15,7 +15,7 @@ namespace Teht10
 
             for (i = 0; i < luvut.Length; i++)
             {
-                if ( luvut[i] % 2 == 0)
+                if ( luvut[i] % 2 == 0) // jos kahdella jaollinen eli jakojäännös = 0.
                 {
                     Console.Write(luvut[i]);
                     Console.WriteLine(" HEP!");
