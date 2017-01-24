@@ -14,7 +14,7 @@ namespace Teht17
             int[] taulu1 = { 10, 20, 30, 40, 50 };
             int[] taulu2 =   { 5, 15, 25, 35, 45 };
             int[] taulu3 = new int[taulu1.Length + taulu2.Length]; // ak8ustetaan kolmas taulu jonka pituus on taulu1+taulu2 jotta kaikki arvot mahtuu.
-            int i, j;
+            int i;
 
             for (i=0;i<taulu1.Length ;i++)
             {
@@ -77,21 +77,6 @@ namespace Teht17
                     Console.Write(luku + ", ");
                 }
             }
-
-            /*
-            for (i = 0; i < taulu3.Length; i++)
-            {
-                if (i == 9)
-                {
-                    Console.Write(taulu3[i]);
-                }
-                else
-                {
-                    Console.Write(taulu3[i] + ", ");
-                }
-            }
-            */
-
 
             Console.WriteLine();
             
