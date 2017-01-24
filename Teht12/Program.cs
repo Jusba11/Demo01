@@ -20,9 +20,7 @@ namespace Teht12
                 luku = int.Parse(syote);
                 luvut[i] = luku;
             }
-
-
-
+            
             Console.Write("luvut olivat: ");
 
             for (i = 4; i >= 0; i--)
