@@ -21,7 +21,6 @@ namespace Teht14
 
                 switch (luku)
                 {
-
                     case 0: pisteet[0] = pisteet[0] + 1; break;
                     case 1: pisteet[1] = pisteet[1] + 1; break;
                     case 2: pisteet[2] = pisteet[2] +  1; break;
@@ -32,11 +31,10 @@ namespace Teht14
                     default: Console.WriteLine("Virhe. Ei validi luku."); break;
                 }
 
-            } while (luku != -1);
+            } while (luku != -1); // luku -1 lopettaa loopin.
+
 
             // tehdään jakauma.
-
-
             for (i = 0; i < 6; i++)
             {
                 Console.Write(i);
