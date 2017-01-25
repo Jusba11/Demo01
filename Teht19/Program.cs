@@ -186,8 +186,8 @@ namespace Teht19
                     Console.Write(" " + sana[j] + " ");
                 }
 
-                Console.WriteLine("Arvauksia jaljella " + hp + " kappaletta!");
-                Console.WriteLine("Kirjaimia oikein " + oikein + "/ 10");
+                Console.WriteLine("Arvauksia jaljella " + hp + " kappaletta! \n");
+                Console.WriteLine("Kirjaimia oikein " + oikein + "/ 10 \n");
                 
                 if (hp == 0 || oikein == 10)
                 {
@@ -201,8 +201,8 @@ namespace Teht19
             Console.Clear();
             Console.WriteLine("GAME OVER!");
 
-            Console.WriteLine("Arvauksia jaljella " + hp + " kappaletta!");
-            Console.WriteLine("Kirjaimia oikein " + oikein + "/ 10");
+            Console.WriteLine("Arvauksia jaljella " + hp + " kappaletta! \n");
+            Console.WriteLine("Kirjaimia oikein " + oikein + "/ 10 \n");
 
             for (j = 0; j < sana.Length; j++)
             {
